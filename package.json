@@ -1,5 +1,27 @@
 {
+  "dependencies": {
+    "lodash": "^4.18.1"
+  },
+  "name": "tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "1-intro.js",
   "devDependencies": {
-    "prettier": "^3.8.3"
-  }
+    "nodemon": "^3.1.14"
+  },
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sawzain/nodejs-learning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Sawzain/nodejs-learning/issues"
+  },
+  "homepage": "https://github.com/Sawzain/nodejs-learning#readme"
 }
